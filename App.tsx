@@ -42,15 +42,8 @@ const App: React.FC = () => {
   }, [searchTerm, selectedStep]);
 
   return (
-    <div className="min-h-screen bg-slate-50 font-sans text-slate-900">
-      <header className="bg-white shadow-sm">
-        <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-          <h1 className="text-3xl font-bold tracking-tight text-slate-900">Portal do Cliente Morana Encorp</h1>
-          <p className="mt-1 text-slate-500">Seu guia completo para a jornada com a Morana Encorp.</p>
-        </div>
-      </header>
-
-      <main className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+    <div className="font-sans text-slate-900 p-4 sm:p-6 lg:p-8">
+      <main>
         <section id="stepper" className="mb-12 rounded-lg bg-white p-6 shadow-md overflow-x-auto">
            <h2 className="text-2xl font-semibold text-slate-800 mb-8 text-center">Bem vindo ao fale conosco</h2>
           <Stepper steps={STEPPER_DATA} selectedStep={selectedStep} onStepClick={handleStepClick} />
@@ -90,10 +83,6 @@ const App: React.FC = () => {
           </div>
         </section>
       </main>
-      
-      <footer className="py-6 text-center text-sm text-slate-400">
-        <p>&copy; {new Date().getFullYear()} Morana Encorp. Todos os direitos reservados.</p>
-      </footer>
     </div>
   );
 };
