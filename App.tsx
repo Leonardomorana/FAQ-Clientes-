@@ -1,4 +1,3 @@
-
 import React, { useState, useMemo, useRef } from 'react';
 import { FAQ_DATA, STEPPER_DATA } from './constants';
 import FaqItem from './components/FaqItem';
@@ -46,14 +45,14 @@ const App: React.FC = () => {
     <div className="min-h-screen bg-slate-50 font-sans text-slate-900">
       <header className="bg-white shadow-sm">
         <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-          <h1 className="text-3xl font-bold tracking-tight text-slate-900">Portal do Cliente</h1>
-          <p className="mt-1 text-slate-500">Tudo o que você precisa saber sobre o seu novo lar.</p>
+          <h1 className="text-3xl font-bold tracking-tight text-slate-900">Portal do Cliente Morana Encorp</h1>
+          <p className="mt-1 text-slate-500">Seu guia completo para a jornada com a Morana Encorp.</p>
         </div>
       </header>
 
       <main className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
         <section id="stepper" className="mb-12 rounded-lg bg-white p-6 shadow-md overflow-x-auto">
-           <h2 className="text-2xl font-semibold text-slate-800 mb-8 text-center">Sua Jornada Pós-Entrega</h2>
+           <h2 className="text-2xl font-semibold text-slate-800 mb-8 text-center">Bem vindo ao fale conosco</h2>
           <Stepper steps={STEPPER_DATA} selectedStep={selectedStep} onStepClick={handleStepClick} />
         </section>
 
@@ -62,9 +61,9 @@ const App: React.FC = () => {
             {selectedStep ? (
               <div className="text-center">
                 <h2 className="text-2xl font-semibold text-slate-800">
-                  Dúvidas sobre: <span className="text-sky-600">{selectedStep}</span>
+                  Dúvidas sobre: <span className="text-emerald-600">{selectedStep}</span>
                 </h2>
-                <button onClick={clearFilter} className="mt-2 text-sm font-semibold text-sky-600 hover:underline">
+                <button onClick={clearFilter} className="mt-2 text-sm font-semibold text-emerald-600 hover:underline">
                   Mostrar todas as dúvidas
                 </button>
               </div>
@@ -93,7 +92,7 @@ const App: React.FC = () => {
       </main>
       
       <footer className="py-6 text-center text-sm text-slate-400">
-        <p>&copy; {new Date().getFullYear()} Portal do Cliente. Todos os direitos reservados.</p>
+        <p>&copy; {new Date().getFullYear()} Morana Encorp. Todos os direitos reservados.</p>
       </footer>
     </div>
   );

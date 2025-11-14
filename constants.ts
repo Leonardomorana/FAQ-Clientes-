@@ -1,4 +1,3 @@
-
 import type { Faq, Step } from './types';
 
 export const STEPPER_DATA: Step[] = [
@@ -31,7 +30,7 @@ export const STEPPER_DATA: Step[] = [
 export const FAQ_DATA: Faq[] = [
   {
     question: 'O que devo verificar durante a vistoria do meu apartamento?',
-    answer: 'Na vistoria, verifique o funcionamento de portas e janelas, pontos elétricos e hidráulicos, a qualidade da pintura, a integridade de pisos e revestimentos, e se há algum vazamento. Leve o memorial descritivo para comparar. Acesse nosso <a href="#" class="text-sky-600 font-semibold hover:underline">checklist completo de vistoria</a>.',
+    answer: 'Na vistoria, verifique o funcionamento de portas e janelas, pontos elétricos e hidráulicos, a qualidade da pintura, a integridade de pisos e revestimentos, e se há algum vazamento. Leve o memorial descritivo para comparar. Acesse nosso <a href="#" class="text-emerald-600 font-semibold hover:underline">checklist completo de vistoria</a>.',
     step: 'Vistoria e Chaves',
   },
   {
@@ -41,12 +40,12 @@ export const FAQ_DATA: Faq[] = [
   },
   {
     question: 'Posso alterar o layout do meu imóvel, como quebrar paredes?',
-    answer: 'Alterações estruturais, como a remoção de paredes, exigem a análise de um engenheiro para garantir que não afetem a segurança do prédio. Antes de qualquer modificação, consulte o manual do proprietário e, se necessário, entre em contato com nosso <a href="#" class="text-sky-600 font-semibold hover:underline">departamento de engenharia</a>.',
+    answer: 'Alterações estruturais, como a remoção de paredes, exigem a análise de um engenheiro para garantir que não afetem a segurança do prédio. Antes de qualquer modificação, consulte o manual do proprietário e, se necessário, entre em contato com nosso <a href="#" class="text-emerald-600 font-semibold hover:underline">departamento de engenharia</a>.',
     step: 'Personalização',
   },
   {
     question: 'Como solicito as plantas do meu imóvel para o projeto de móveis?',
-    answer: 'Você pode solicitar as plantas (elétrica, hidráulica e estrutural) do seu imóvel através do <a href="#" class="text-sky-600 font-semibold hover:underline">Portal do Cliente</a>. Elas são essenciais para um planejamento seguro e eficiente.',
+    answer: 'Você pode solicitar as plantas (elétrica, hidráulica e estrutural) do seu imóvel através do <a href="#" class="text-emerald-600 font-semibold hover:underline">Portal do Cliente</a>. Elas são essenciais para um planejamento seguro e eficiente.',
     step: 'Personalização',
   },
   {
@@ -71,7 +70,7 @@ export const FAQ_DATA: Faq[] = [
   },
   {
     question: 'Como aciono a assistência técnica da construtora?',
-    answer: 'Para solicitar assistência técnica dentro do prazo de garantia, abra um chamado diretamente no <a href="#" class="text-sky-600 font-semibold hover:underline">Portal do Cliente</a>, descrevendo o problema e, se possível, anexando fotos. Nossa equipe entrará em contato para agendar uma visita.',
+    answer: 'Para solicitar assistência técnica dentro do prazo de garantia, abra um chamado diretamente no <a href="#" class="text-emerald-600 font-semibold hover:underline">Portal do Cliente</a>, descrevendo o problema e, se possível, anexando fotos. Nossa equipe entrará em contato para agendar uma visita.',
     step: 'Garantia e Manutenção',
   },
   {

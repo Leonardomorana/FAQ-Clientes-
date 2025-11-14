@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import type { Faq } from '../types';
 import { ChevronDownIcon } from './Icons';
@@ -18,7 +17,7 @@ const FaqItem: React.FC<FaqItemProps> = ({ faq }) => {
       >
         <h3 className="text-lg font-medium text-slate-800">{faq.question}</h3>
         <ChevronDownIcon
-          className={`h-6 w-6 flex-shrink-0 text-sky-600 transition-transform duration-300 ${
+          className={`h-6 w-6 flex-shrink-0 text-emerald-600 transition-transform duration-300 ${
             isOpen ? 'rotate-180' : ''
           }`}
         />
